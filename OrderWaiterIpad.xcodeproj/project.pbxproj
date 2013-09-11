@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D26531917E0886E0031BD80 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D26531817E0886E0031BD80 /* UIKit.framework */; };
+		4D26531B17E0886E0031BD80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D26531A17E0886E0031BD80 /* Foundation.framework */; };
+		4D26531D17E0886E0031BD80 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D26531C17E0886E0031BD80 /* CoreGraphics.framework */; };
+		4D26532317E0886E0031BD80 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D26532117E0886E0031BD80 /* InfoPlist.strings */; };
+		4D26532517E0886E0031BD80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D26532417E0886E0031BD80 /* main.m */; };
+		4D26532917E0886E0031BD80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D26532817E0886E0031BD80 /* AppDelegate.m */; };
+		4D26532B17E0886E0031BD80 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D26532A17E0886E0031BD80 /* Default.png */; };
+		4D26532D17E0886E0031BD80 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D26532C17E0886E0031BD80 /* Default@2x.png */; };
+		4D26532F17E0886E0031BD80 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D26532E17E0886E0031BD80 /* Default-568h@2x.png */; };
+		4D26533217E0886E0031BD80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D26533117E0886E0031BD80 /* ViewController.m */; };
+		4D26533517E0886E0031BD80 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D26533317E0886E0031BD80 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D26531517E0886E0031BD80 /* OrderWaiterIpad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderWaiterIpad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D26531817E0886E0031BD80 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D26531A17E0886E0031BD80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D26531C17E0886E0031BD80 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D26532017E0886E0031BD80 /* OrderWaiterIpad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OrderWaiterIpad-Info.plist"; sourceTree = "<group>"; };
+		4D26532217E0886E0031BD80 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D26532417E0886E0031BD80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D26532617E0886E0031BD80 /* OrderWaiterIpad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OrderWaiterIpad-Prefix.pch"; sourceTree = "<group>"; };
+		4D26532717E0886E0031BD80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D26532817E0886E0031BD80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D26532A17E0886E0031BD80 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4D26532C17E0886E0031BD80 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4D26532E17E0886E0031BD80 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4D26533017E0886E0031BD80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D26533117E0886E0031BD80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D26533417E0886E0031BD80 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D26531217E0886E0031BD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D26531917E0886E0031BD80 /* UIKit.framework in Frameworks */,
+				4D26531B17E0886E0031BD80 /* Foundation.framework in Frameworks */,
+				4D26531D17E0886E0031BD80 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D26530C17E0886E0031BD80 = {
+			isa = PBXGroup;
+			children = (
+				4D26531E17E0886E0031BD80 /* OrderWaiterIpad */,
+				4D26531717E0886E0031BD80 /* Frameworks */,
+				4D26531617E0886E0031BD80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D26531617E0886E0031BD80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D26531517E0886E0031BD80 /* OrderWaiterIpad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D26531717E0886E0031BD80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D26531817E0886E0031BD80 /* UIKit.framework */,
+				4D26531A17E0886E0031BD80 /* Foundation.framework */,
+				4D26531C17E0886E0031BD80 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D26531E17E0886E0031BD80 /* OrderWaiterIpad */ = {
+			isa = PBXGroup;
+			children = (
+				4D26532717E0886E0031BD80 /* AppDelegate.h */,
+				4D26532817E0886E0031BD80 /* AppDelegate.m */,
+				4D26533017E0886E0031BD80 /* ViewController.h */,
+				4D26533117E0886E0031BD80 /* ViewController.m */,
+				4D26533317E0886E0031BD80 /* ViewController.xib */,
+				4D26531F17E0886E0031BD80 /* Supporting Files */,
+			);
+			path = OrderWaiterIpad;
+			sourceTree = "<group>";
+		};
+		4D26531F17E0886E0031BD80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D26532017E0886E0031BD80 /* OrderWaiterIpad-Info.plist */,
+				4D26532117E0886E0031BD80 /* InfoPlist.strings */,
+				4D26532417E0886E0031BD80 /* main.m */,
+				4D26532617E0886E0031BD80 /* OrderWaiterIpad-Prefix.pch */,
+				4D26532A17E0886E0031BD80 /* Default.png */,
+				4D26532C17E0886E0031BD80 /* Default@2x.png */,
+				4D26532E17E0886E0031BD80 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D26531417E0886E0031BD80 /* OrderWaiterIpad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D26533817E0886E0031BD80 /* Build configuration list for PBXNativeTarget "OrderWaiterIpad" */;
+			buildPhases = (
+				4D26531117E0886E0031BD80 /* Sources */,
+				4D26531217E0886E0031BD80 /* Frameworks */,
+				4D26531317E0886E0031BD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrderWaiterIpad;
+			productName = OrderWaiterIpad;
+			productReference = 4D26531517E0886E0031BD80 /* OrderWaiterIpad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D26530D17E0886E0031BD80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = tiankong360;
+			};
+			buildConfigurationList = 4D26531017E0886E0031BD80 /* Build configuration list for PBXProject "OrderWaiterIpad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4D26530C17E0886E0031BD80;
+			productRefGroup = 4D26531617E0886E0031BD80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D26531417E0886E0031BD80 /* OrderWaiterIpad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D26531317E0886E0031BD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D26532317E0886E0031BD80 /* InfoPlist.strings in Resources */,
+				4D26532B17E0886E0031BD80 /* Default.png in Resources */,
+				4D26532D17E0886E0031BD80 /* Default@2x.png in Resources */,
+				4D26532F17E0886E0031BD80 /* Default-568h@2x.png in Resources */,
+				4D26533517E0886E0031BD80 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D26531117E0886E0031BD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D26532517E0886E0031BD80 /* main.m in Sources */,
+				4D26532917E0886E0031BD80 /* AppDelegate.m in Sources */,
+				4D26533217E0886E0031BD80 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4D26532117E0886E0031BD80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D26532217E0886E0031BD80 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D26533317E0886E0031BD80 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D26533417E0886E0031BD80 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D26533617E0886E0031BD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4D26533717E0886E0031BD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D26533917E0886E0031BD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderWaiterIpad/OrderWaiterIpad-Prefix.pch";
+				INFOPLIST_FILE = "OrderWaiterIpad/OrderWaiterIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D26533A17E0886E0031BD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OrderWaiterIpad/OrderWaiterIpad-Prefix.pch";
+				INFOPLIST_FILE = "OrderWaiterIpad/OrderWaiterIpad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D26531017E0886E0031BD80 /* Build configuration list for PBXProject "OrderWaiterIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D26533617E0886E0031BD80 /* Debug */,
+				4D26533717E0886E0031BD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D26533817E0886E0031BD80 /* Build configuration list for PBXNativeTarget "OrderWaiterIpad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D26533917E0886E0031BD80 /* Debug */,
+				4D26533A17E0886E0031BD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D26530D17E0886E0031BD80 /* Project object */;
+}
