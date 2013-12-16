@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+@interface ViewController : BaseViewController<UITextFieldDelegate>
+{
+    UITextField *nameTF;
+    UITextField *keyTF;
+    UIButton    *remindBtn;
+    int         i;
+}
 
-@interface ViewController : UIViewController
 
 @end

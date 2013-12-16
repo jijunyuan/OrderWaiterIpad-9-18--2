@@ -7,17 +7,24 @@
 //
 
 #import "AppDelegate.h"
-
+#import "DataBase.h"
 #import "ViewController.h"
-
+#import "TKHttpRequest.h"
+#import "MobClick.h"
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [MobClick startWithAppkey:@"523d4fb156240bc4fe0c9544"];
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
-    self.window.rootViewController = self.viewController;
+    UINavigationController *nav=[[UINavigationController alloc] initWithRootViewController:self.viewController];
+    
+    [DataBase clearOrderMenu];
+    [TKHttpRequest ShareCache];
+    [[UIApplication sharedApplication] setStatusBarHidden:YES];
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }
